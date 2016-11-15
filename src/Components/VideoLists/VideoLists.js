@@ -9,7 +9,13 @@ export default class VideoLists extends Component {
   
   render() {
     return (
-      <div>Hello from layout</div>
+      <div>
+        <div className='panel panel-default'>
+          <div className='panel-heading'>
+            
+          </div>
+        </div>
+      </div>
     );
   }
 
