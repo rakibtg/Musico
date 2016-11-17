@@ -1,0 +1,15 @@
+.listurl {
+    color: #bbb;
+    font-style: italic;
+    font-size: 12px;
+    line-height: 10px;
+}
+
+.musify li {
+    border: 0px;
+    border-bottom: 2px solid #F4F7FF;
+}
+
+.musify li:last-child {
+    border-bottom: 0px;
+}
