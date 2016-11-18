@@ -34,7 +34,7 @@ export default class VideoLists extends Component {
   render() {
     return (
       <div>
-            
+
         <ul className='list-group musify'>
           {this.getDefaultLists().map(function(item, index){
             return <li 

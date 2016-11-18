@@ -4,7 +4,8 @@ import './App.css';
 
 import Header from './Components/Header/Header';
 import VideoLists from './Components/VideoLists/VideoLists';
-import {VideoPlayer} from './Components/VideoPlayer/VideoPlayer'; 
+import {VideoPlayer} from './Components/VideoPlayer/VideoPlayer';
+import AddVideo from './Components/AddVideo/AddVideo';
 
 class App extends Component {
 
@@ -19,6 +20,7 @@ class App extends Component {
         <div className="container">
           <div className="col-sm-6">
             <VideoLists/>
+            <AddVideo/>
           </div>
           <div className="col-sm-6">
             <VideoPlayer/>
